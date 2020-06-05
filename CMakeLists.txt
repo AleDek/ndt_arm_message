@@ -49,9 +49,10 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## Generate messages in the 'msg' folder
 add_message_files(
-   FILES
-   cmd_joint.msg
-   mes_joint.msg
+	FILES
+	cmd_joint.msg
+	mes_joint.msg
+	arm_status.msg
 )
 
 ## Generate services in the 'srv' folder
